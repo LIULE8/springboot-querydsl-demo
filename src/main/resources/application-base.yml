@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: springboot-query-demo
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  jooq:
+    sql-dialect: h2
+  main:
+    allow-bean-definition-overriding: true
+
